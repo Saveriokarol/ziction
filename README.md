@@ -16,11 +16,17 @@ The header of the `.zict` format is simple:
 
 ## Building & Installing
 To build, simply do:
-```make```
+```
+make
+```
 To install, simply do:
-```sudo make install```
+```
+sudo make install
+```
 Note: If you want to directly build & install, `install` rule arleady depends on the `all` rule, so you would:
-```sudo make install```
+```
+sudo make install
+```
 
 ## License
 Covered by the [MIT License](LICENSE).
